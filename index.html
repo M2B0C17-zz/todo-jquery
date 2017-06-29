@@ -19,13 +19,14 @@
         <div class="col offset-s2 s8">
           <form action="">
             <input type="text" id="toDoInput1" placeholder="Ingresa la tarea">
-            <label>To Do Items: </label>
+            <button>Agregar tarea</button>
+            <label><br><br>To Do Items: </label>
             <!-- Acá se agregarán las tareas -->
-            <ul id="mensaje"><button>Remove</button></ul>
+            <ul id="mensaje" onclick="guardarDatos()" value="Guardar datos"></ul>
             <hr>
             <label>Completed Items</label>
             <!-- Acá se agregarán las tareas -->
-            <ul id="mensajes2"><button>Remove</button></ul>
+            <ul id="mensajes2" onclick="guardarDatos()" value="Guardar datos"></ul>
           </form>
         </div>
       </div>
