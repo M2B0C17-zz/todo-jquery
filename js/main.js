@@ -10,7 +10,7 @@ $(document).ready(function(){
   $("button").click(function(e){ // no se como hacerlo sin el botón, pense en enter pero no lo logre
     e.preventDefault();
     var tarea = $('#toDoInput1').val();
-    var marcar = $("#mensaje").prop("checked", true); // no funciona u.u
+    var marcar = $("#mensaje").append('<input type="checkbox>'); // no funciona u.u
 
     if(tarea == ""){
       alert("Debes escribir una tarea");
@@ -24,7 +24,7 @@ $(document).ready(function(){
   $("button").click(function(e){ // no se como hacerlo sin el botón, pense en enter pero no lo logre
     e.preventDefault();
     var tarea1 = $('#toDoInput1').val();
-    var marcar1 = $("#mensajes2").prop("checked",true);
+    var marcar1 = $("#mensajes2").append('<input type="checkbox>'); // no funciona u.u
     // No funciona lo /**/
   /*  var caja = [];
 
