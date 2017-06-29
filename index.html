@@ -19,14 +19,14 @@
         <div class="col offset-s2 s8">
           <form action="" class="add-items">
             <input type="text" id="toDoInput1" class="form-control" placeholder="Ingresa la tarea">
-            <button class="add" type="submit">Agregar tarea</button>
+            <button class="add" id="btnAgregar" type="submit">Agregar tarea</button>
             <label><br><br>To Do Items: </label>
             <!-- Acá se agregarán las tareas - No funciona el checkbox T.T-->
-            <ul id="mensaje" class="listaTarea" onclick="guardarDatos()" value="Guardar datos"></ul>
+            <ul id="mensaje" class="btn listaTarea" onclick="guardarDatos()" value="Guardar datos"></ul>
             <hr>
             <label>Completed Items</label>
             <!-- Acá se agregarán las tareas -->
-            <ul id="mensajes2" class="listaTarea" onclick="guardarDatos()" value="Guardar datos"></ul>
+            <ul id="mensajes2" class="btn listaTarea" onclick="guardarDatos()" value="Guardar datos"></ul>
           </form>
         </div>
       </div>
