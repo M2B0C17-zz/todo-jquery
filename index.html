@@ -2,9 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minium-scale=1.0">
+    <title>To Do JQuery - 28 Junio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+        <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <header class="container">
+      <div class="row">
+        <div class="col">
+          <h1>To Do app</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col offset-s2 s8">
+          <form action="">
+            <input type="text" id="toDoInput1" placeholder="Ingresa la tarea">
+            <label>To Do Items: </label>
+            <!-- Acá se agregarán las tareas -->
+            <ul id="mensaje"><button>Remove</button></ul>
+            <hr>
+            <label>Completed Items</label>
+            <!-- Acá se agregarán las tareas -->
+            <ul id="mensajes2"><button>Remove</button></ul>
+          </form>
+        </div>
+      </div>
+    </header>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js">
+    </script>
+    <script type="text/javascript" src="js/main.js">
+    </script>
   </body>
 </html>
